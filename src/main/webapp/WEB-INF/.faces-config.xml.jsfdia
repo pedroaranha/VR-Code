@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PROCESS model-entity="JSFProcess">
+ <PROCESS-ITEM NAME="rules:#views#index.jsp" PATH="/views/index.jsp"
+  SHAPE="32,17,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#views#index.jsp:0" NAME="item"
+   PATH="/views/index.jsp" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="ADMINISTRADOR::#views#adm#indexADM.jsp"
+    NAME="output" PATH="/views/adm/indexADM.jsp"
+    TARGET="rules:#views#adm#indexADM.jsp" TITLE="ADMINISTRADOR" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT ID="EMPRESA::#views#empresa#indexEmpresa.jsp"
+    NAME="output1" PATH="/views/empresa/indexEmpresa.jsp"
+    TARGET="rules:#views#empresa#indexEmpresa.jsp" TITLE="EMPRESA" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="FUNCIONARIO::#views#funcionario#indexFuncionario.jsp"
+    NAME="output2" PATH="/views/funcionario/indexFuncionario.jsp"
+    TARGET="rules:#views#funcionario#indexFuncionario.jsp"
+    TITLE="FUNCIONARIO" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="FORNECEDOR::#views#fornecedor#indexFornecedor.jsp"
+    NAME="output3" PATH="/views/fornecedor/indexFornecedor.jsp"
+    TARGET="rules:#views#fornecedor#indexFornecedor.jsp"
+    TITLE="FORNECEDOR" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#views#adm#indexADM.jsp"
+  PATH="/views/adm/indexADM.jsp" SHAPE="256,33,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#views#empresa#indexEmpresa.jsp"
+  PATH="/views/empresa/indexEmpresa.jsp" SHAPE="272,321,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#views#funcionario#indexFuncionario.jsp"
+  PATH="/views/funcionario/indexFuncionario.jsp" SHAPE="288,465,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#views#erro.jsp" PATH="/views/erro.jsp"
+  SHAPE="288,241,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#views#fornecedor#indexFornecedor.jsp"
+  PATH="/views/fornecedor/indexFornecedor.jsp" SHAPE="288,241,0,0" model-entity="JSFProcessGroup"/>
+</PROCESS>

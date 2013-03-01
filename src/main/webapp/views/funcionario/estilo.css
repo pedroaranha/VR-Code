@@ -1,0 +1,76 @@
+@CHARSET "ISO-8859-1";
+
+*{
+	margin:0; 
+	padding:0;
+	font-family:calibri, arial;
+}
+
+a{
+	text-decoration: none;
+}
+
+#conteudo{
+	width: 100%;
+}
+
+#header{
+	width: 100%;
+	border-bottom: 1px solid #ccc;	
+}
+
+#logo{
+	display:block;
+	margin: 5px auto;
+}
+
+#login{
+	width: 20%;
+	margin:20px auto;
+}
+
+#corpo{
+	width: 80%;
+	margin:5px auto;
+
+	}
+#corpo #listaNav{
+	width:50%;
+	margin:0px auto;
+	
+}
+#listaNav .titulo{
+	background: #ccc;
+	padding-left: 5px;	
+}
+#listaNav .link{
+	background: #eee;
+	padding-left: 10px;	
+}
+
+.icone{
+	width:20px;
+	height: 20px;
+	margin-left:3px;
+}
+
+#corpo #menu{
+	float:right;
+}
+
+#corpo #middle{
+	width: 100%;
+	float:left;
+}
+#middle .table{
+	width: 70%;
+	margin:10px auto;
+	border: 2px solid white;
+}
+.tableTitulo{
+	background: url("../imagens/bgHeaderTable.gif") repeat-x;
+}
+
+h:graphicImage{
+	margin-left: 20px;
+}
